@@ -1,0 +1,82 @@
+/* ----------------------------------------
+   Global Styles
+---------------------------------------- */
+body {
+  /* Background gradient and fallback color */
+  background: #f0f0f0;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  
+  /* Readable, web-safe font */
+  font-family: Arial, Helvetica, sans-serif;
+  
+  /* Remove default margins/padding */
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------------------------
+   Header Styles
+---------------------------------------- */
+header {
+  background-color: #4a90e2;  /* Contrast header background */
+  color: #ffffff;             /* Light text for readability */
+  text-align: center;         /* Center the welcome message */
+  padding: 20px;              /* Space around header content */
+}
+
+header h1 {
+  font-size: 2.5em;           /* Larger heading */
+  font-weight: 700;           /* Bold weight */
+  margin: 0;                  /* Remove default margin */
+}
+
+/* ----------------------------------------
+   Navigation Menu
+---------------------------------------- */
+nav ul {
+  list-style: none;           /* Remove bullets */
+  padding: 0;                 
+  margin: 10px 0;             
+  display: flex;              /* Horizontal layout */
+  justify-content: center;    /* Center the list */
+}
+
+nav ul li {
+  margin: 0 15px;             /* Space between links */
+}
+
+nav ul li a {
+  text-decoration: none;      
+  color: #ffffff;             
+  padding: 8px 12px;          
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;  /* Invert on hover */
+  color: #4a90e2;             
+  border-radius: 4px;         
+}
+
+/* ----------------------------------------
+   Main Section Styles
+---------------------------------------- */
+main section {
+  background-color: #fafafa;  
+  border: 1px solid #ddd;     
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;          
+  padding: 20px;              
+  max-width: 800px;           
+}
+
+/* ----------------------------------------
+   Footer Styles
+---------------------------------------- */
+footer {
+  background-color: #333333;  
+  color: #cccccc;             
+  text-align: center;         
+  font-size: 0.9em;           /* Smaller text */
+  padding: 10px;              
+}
